@@ -1,0 +1,27 @@
+theme = "gruber-darker"
+
+# Ctrl + arrow keys functionality
+[keys.insert]
+C-right = "move_next_word_start"
+C-left = "move_prev_word_end"
+C-S-right = "extend_next_word_end"
+C-S-left = "extend_prev_word_start"
+S-right = "extend_char_right"
+S-left = "extend_char_left"
+
+
+[editor]
+line-number = "relative"
+mouse = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
