@@ -1,0 +1,19 @@
+[Annotations]
+annotationToolType=3
+freehandShadow=false
+freehandStrokeWidth=12
+
+[General]
+ocrLanguages=afr
+
+[ImageSave]
+lastImageSaveAsLocation=file:///home/monikrab/Pictures/Playlists/Screenshot_20260805_002955.png
+lastImageSaveLocation=file:///home/monikrab/Pictures/Playlists/Screenshot_20260805_002955.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts
+
+[ViewerWindow]
+2 screens: Height=570
+2 screens: Width=749

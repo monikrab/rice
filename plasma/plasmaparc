@@ -1,0 +1,4 @@
+[General]
+AudioFeedback=false
+RaiseMaximumVolume=true
+VolumeStep=2

@@ -1,0 +1,20 @@
+selected_tab: oc_page
+selected_gpu: 10DE:2D05-1043:8A70-0000:01:00.0
+plots_time_period: 60
+plots_per_row: 2
+stats_poll_interval_ms: 500
+gpus:
+  10DE:2D05-1043:8A70-0000:01:00.0:
+    plots:
+    - - !Temperature GPU
+      - !Temperature GPU Hotspot
+    - - GpuClock
+      - VramClock
+    - - FanRpm
+      - FanPwm
+    - - PowerCurrent
+      - PowerCap
+theme: automatic
+window_size:
+  width: 1161
+  height: 1304

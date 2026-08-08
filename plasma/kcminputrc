@@ -1,0 +1,11 @@
+[Libinput][1578][16641][MOSART Semi. 2.4G Keyboard Mouse]
+Enabled=true
+PointerAcceleration=-0.200
+PointerAccelerationProfile=2
+
+[Libinput][1578][16641][MOSART Semi. 2.4G Keyboard Mouse Consumer Control]
+Enabled=true
+
+[Mouse]
+cursorSize=48
+cursorTheme=Oxygen_Zion

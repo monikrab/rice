@@ -1,0 +1,6 @@
+[General]
+Source=Times
+
+[Times]
+SunsetStart=20:30:00
+TransitionDuration=3000

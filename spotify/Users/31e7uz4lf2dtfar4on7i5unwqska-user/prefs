@@ -1,0 +1,10 @@
+audio.crossfade_v2=true
+audio.allow_downgrade=false
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.1.131\",\"app_state\":\"MISSING\",\"created_timestamp\":1784408421,\"device_id\":\"00000000-0000-0000-0000-08ba5fc5ada0\",\"dial_location_url\":\"http://192.168.1.131:56790/dd.xml\",\"display_name\":\"Smart TV\",\"last_seen\":1784582747,\"manufacturer\":\"MediaTek Inc.\",\"model_name\":\"HE39A5600FWTS\",\"product_cap\":\"\",\"public_ip\":\"2001:818:d8f7:7900:236e:af57:57db:c1dc\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"08ba5fc5ada0\",\"port\":9,\"retries\":240}}]"
+connect.mdns_devices="[]"
+audio.play_bitrate_non_metered_enumeration=3
+audio.crossfade.time_v2=1000
+audio.play_bitrate_enumeration=3
+app.browser.zoom-level=50
+app.player.volume=49558

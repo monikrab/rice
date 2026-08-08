@@ -1,0 +1,36 @@
+[Added Associations]
+application/json=Helix.desktop;helix.desktop;
+application/x-docbook+xml=Helix.desktop;helix.desktop;
+application/x-extension-htm=waterfox.desktop;
+application/x-extension-html=waterfox.desktop;
+application/x-extension-shtml=waterfox.desktop;
+application/x-extension-xht=waterfox.desktop;
+application/x-extension-xhtml=waterfox.desktop;
+application/x-yaml=Helix.desktop;helix.desktop;
+application/xhtml+xml=waterfox.desktop;
+text/html=waterfox.desktop;
+text/markdown=Helix.desktop;helix.desktop;
+text/plain=Helix.desktop;helix.desktop;
+text/x-cmake=Helix.desktop;helix.desktop;
+x-scheme-handler/chrome=waterfox.desktop;
+x-scheme-handler/http=waterfox.desktop;
+x-scheme-handler/https=waterfox.desktop;
+
+[Default Applications]
+application/json=Helix.desktop;
+application/x-docbook+xml=Helix.desktop;
+application/x-extension-htm=waterfox.desktop
+application/x-extension-html=waterfox.desktop
+application/x-extension-shtml=waterfox.desktop
+application/x-extension-xht=waterfox.desktop
+application/x-extension-xhtml=waterfox.desktop
+application/x-yaml=Helix.desktop;
+application/xhtml+xml=waterfox.desktop
+text/html=waterfox.desktop
+text/markdown=Helix.desktop;
+text/plain=Helix.desktop;
+text/x-cmake=Helix.desktop;
+x-scheme-handler/chrome=waterfox.desktop
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/http=waterfox.desktop
+x-scheme-handler/https=waterfox.desktop

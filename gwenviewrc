@@ -1,0 +1,32 @@
+[General]
+FullScreenBackground=FullScreenBackground::Image
+JPEGQuality=95
+LastTargetDir[$e]=file:$HOME/Pictures
+LastUsedVersion=210800
+SideBarPage=operations
+
+[ImageView]
+AlphaBackgroundColor=0,0,0
+AlphaBackgroundMode=AbstractImageView::AlphaBackgroundSolid
+AnimationMethod=DocumentView::NoAnimation
+MouseWheelBehavior=MouseWheelBehavior::Browse
+ThumbnailSplitterSizes=882,252
+
+[Phonon::AudioOutput]
+Gwenview_Volume=0.82
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/Playlists/16_2nd_finale_2.jpg
+File2[$e]=$HOME/.local/share/plasma/containmentpreviews/150-5ff6ab00-9bba-44f5-9a4a-a39399e00478.png
+Name1[$e]=16_2nd_finale_2.jpg
+Name2[$e]=150-5ff6ab00-9bba-44f5-9a4a-a39399e00478.png
+
+[SideBar]
+InformationSplitterSizes=220,255
+IsVisible ViewMode FullScreen=true
+SideBarSplitterSizes=210,742
+
+[ThumbnailView]
+AutoplayVideos=true
+Sorting=Sorting::Date
+ThumbnailSize=201

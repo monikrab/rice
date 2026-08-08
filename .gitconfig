@@ -1,0 +1,7 @@
+[user]
+	email = arcticstrokes76@gmail.com
+	name = monikrab
+[init]
+	defaultBranch = main
+[credential]
+	helper = store

@@ -1,0 +1,13 @@
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=106d6f6e65000177833066400000184000003
+count=1
+program1=waterfox
+restartCommand1=/opt/waterfox/waterfox,--sm-client-id,106d6f6e65000177833066400000184000003
+restartStyleHint1=0
+userId1=monikrab

@@ -1,0 +1,170 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[ ](lilac_blue)\
+$username\
+$hostname\
+[](bg:color_yellow fg:lilac_blue)\
+$directory\
+[](bg:color_fg1 fg:color_yellow)\
+$git_branch\
+$git_status\
+[](fg:color_fg1 bg:color_fg1)\
+${custom.c}\
+$rust\
+$golang\
+$nodejs\
+$bun\
+$java\
+$kotlin\
+$haskell\
+$python\
+[](fg:color_fg1 bg:color_fg2)\
+$time\
+[ ](fg:color_fg2)\
+$line_break\
+$character"""
+
+palette = 'gruber_darker'
+
+[os]
+disabled = false
+style = "bg:lilac_blue fg:color_fg1"
+
+[os.symbols]
+Windows = ""
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+AOSC = ""
+Arch = "󰣇"
+CachyOS = "󰣇 "
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[username]
+show_always = true
+style_user = "bg:lilac_blue fg:color_fg0"
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+disabled = false
+style = "bg:lilac_blue fg:color_fg0"
+format = '[@$hostname ]($style)'
+
+[directory]
+style = "fg:color_fg0 bg:color_yellow"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncate_to_repo = false
+
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"dev" = "󰲋 "
+
+[git_branch]
+symbol = ""
+style = "bg:yellow"
+format = '[[ $symbol $branch](fg:color_fg0 bg:color_fg1)]($style)'
+
+[git_status]
+style = "bg:yellow"
+format = '[[ ($all_status$ahead_behind)](fg:color_fg0 bg:color_fg1)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[bun]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[c]
+symbol = " "
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+disabled=true
+
+[custom.c]
+detect_extensions = ["c", "h"]
+symbol = ""
+command = "clang --version | head -n1 | grep -oE '[0-9]+\\.[0-9]+(\\.[0-9]+)?'"
+format = "[$symbol $output ](fg:color_fg0 bg:color_fg1)($style)"
+style = "bold fg:149"
+
+[rust]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[java]
+symbol = " "
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[kotlin]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[haskell]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[python]
+symbol = ""
+style = "bg:green"
+format = '[[$symbol( $version)(\(#$virtualenv\)) ](fg:color_fg0 bg:color_fg1)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:lavender"
+format = '[[  $time ](fg:color_bg1 bg:color_fg2)]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[ ❯](bold fg:green)'
+error_symbol = '[ ❯](bold fg:red)'
+
+[palettes.gruber_darker]
+color_fg0 = '#181818'
+color_fg1 = '#e4e4ef'
+color_fg2 = '#73c931'
+color_bg1 = '#181818'
+color_bg3 = '#665c54'
+color_gray = '#b3b3b3'
+color_aqua = '#e4e4ef'
+color_green = '#98971a'
+lilac_blue = '#96a6c8'
+color_purple = '#b16286'
+color_red = '#cc241d'
+color_yellow = '#ffdc33'

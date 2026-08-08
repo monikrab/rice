@@ -1,0 +1,5 @@
+[Layout]
+LayoutList=pt
+Options=compose:ins
+ResetOldOptions=true
+Use=true

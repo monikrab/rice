@@ -1,0 +1,6 @@
+[Daemon]
+Timeout=10
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/monikrab/Pictures/Wallpapers/Nature/winter_view.C1iK4I22_27yKdr.webp
+PreviewImage=file:///home/monikrab/Pictures/Wallpapers/Nature/winter_view.C1iK4I22_27yKdr.webp

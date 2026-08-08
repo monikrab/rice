@@ -1,0 +1,157 @@
+{
+    "description": "monikrab's CachyOS configuration",
+    
+    "packages": [
+        "btop",
+        "efibootmgr",
+
+        "biber",
+        "clang",
+        "ffmpeg4.4",
+        "ninja",
+        "python-numpy",
+        "uv",
+        "wl-clipboard",
+
+        "bat",
+        "eza",
+        "fastfetch",
+        "github-cli",
+        "helix",
+        "nvtop",
+        "starship",
+        "tectonic",
+        "unzip",
+        "zip",
+
+        "ark",
+        "chromium",
+        "dolphin",
+        "equibop",
+        "filelight",
+        "gwenview",
+        "jamesdsp-pipewire-bin",
+        "keepassxc",
+        "lact",
+        "mpv",
+        "okular",
+        "qalculate-qt",
+        "qbittorrent",
+        "spectacle",
+        "spotify-launcher",
+        "wezterm-nightly-bin",
+
+        "ebgaramonxdd-otf",
+        "noto-fonts-cjk",
+
+        "oxygen"
+    ],
+    
+    "services": [
+        "NetworkManager",
+        "udisks2",
+        "upower",
+        "ananicy-cpp",
+        
+        "plasmalogin",
+        "polkit",
+        "bluetooth",
+
+        "lactd"
+    ],
+
+    "gc": {
+        "enabled": false,
+        "include": []
+    },
+    
+    "rice": {
+        "enabled": true,
+        "repo": "monikrab/rice",
+        "include": [
+            "nimas.json",
+
+            "wireplumber/",
+            ".nvidia-settings-rc",
+
+            "bat/",
+            "btop/btop.conf",
+            "fastfetch/",
+            "fish/config.fish",
+            ".gitconfig",
+            "helix/",
+            "starship.toml",
+
+            "plasma/",
+            "menus/",
+            "gtk-3.0/",
+            "gtk-4.0/",
+            "kdedefaults/",
+            "Xgtk-3.0/",
+            "Xgtk-4.0/",
+            "xsettingsd/",
+            "user-dirs.dirs",
+
+            "equibop/settings/settings.json",
+            "jamesdsp/",
+            "keepassxc/",
+            "lact/",
+            "mpv/",
+            "Notepadqq/Notepadqq.ini",
+            "qBittorrent/",
+            "spotify/",
+            ".wezterm.lua",
+            "dolphinrc",
+            "gwenviewrc",
+            "spectaclerc",
+            "spotify-launcher.conf"
+        ]
+    },
+    
+    "backup": {
+        "enabled": false,
+        "path": "",
+        "include": []
+    },
+
+
+    "extras": {
+        "fonts": {
+            "SF Pro": "https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts",
+            "Liga SFMono Nerd Font": "https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized"
+        },
+        
+        "waterfox": [
+            "wget https://cdn.waterfox.com/waterfox/releases/<v>/Linux_x86_64/waterfox-<v>.tar.bz2",
+            "tar xvf waterfox-*.tar.bz2",
+            "mv waterfox/ /opt",
+            "ln -s /opt/waterfox/waterfox /usr/local/bin/waterfox",
+            "cp <backup>/.local/share/applications/waterfox.desktop ~/.local/share/applications"
+        ],
+
+        "symlinks": {
+            "/usr/bin/helix": "/usr/bin/hx",
+            "~/.config/.wezterm.lua": "~/.wezterm.lua",
+            "~/.config/plasma/*": "~/.config/",
+            "~/.config/.gitconfig": "~/.gitconfig"
+        },
+
+        "spotx": "bash -c 'bash <(curl -sSL https://spotx-official.github.io/run.sh)'",
+
+        "autostart": "cp /usr/share/applications/jamesdsp.desktop ~/.config/autostart/",
+
+        "kernel-flags": [ "amd_pstate=guided" ],
+
+        "disks": {
+            "/dev/nvme0n1p2": {
+                "mount": "/",
+                "compression": "-7"
+            },
+
+            "/dev/sda2": {
+                "mount": "/mnt/SSD",
+                "driver": "ntfs"
+            }
+        }
+    }
+}

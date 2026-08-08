@@ -1,0 +1,10 @@
+[33fc5dec-e12a-4d3f-a486-43189d6336c6]
+Description=Application settings for waterfox
+noborder=true
+noborderrule=3
+wmclass=waterfox
+wmclassmatch=1
+
+[General]
+count=1
+rules=33fc5dec-e12a-4d3f-a486-43189d6336c6

@@ -1,0 +1,100 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd'>
+<Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>Development</Menuname>
+  <Menuname>Education</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Help</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Science</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>Applications</Menuname>
+ </Layout>
+ <Menu>
+  <Name>Development</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>assistant.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Utilities</Name>
+  <Include>
+   <Filename>qdbusviewer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+  </Include>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>XUtilities</Menuname>
+   <Merge type="files"/>
+   <Filename>org.kde.ark.desktop</Filename>
+   <Filename>org.kde.plasma.emojier.desktop</Filename>
+   <Filename>org.kde.filelight.desktop</Filename>
+   <Filename>helix.desktop</Filename>
+   <Filename>org.kde.spectacle.desktop</Filename>
+   <Filename>org.wezfurlong.wezterm.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+   <Filename>assistant.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>assistant.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Include/>
+ <Exclude>
+  <Filename>designer.desktop</Filename>
+ </Exclude>
+ <Menu>
+  <Name>Help</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+  </Layout>
+  <Exclude>
+   <Filename>assistant.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>assistant.desktop</Filename>
+   <Filename>vesktop.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Internet</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>bssh.desktop</Filename>
+   <Filename>bvnc.desktop</Filename>
+   <Filename>chromium.desktop</Filename>
+   <Filename>equibop.desktop</Filename>
+   <Filename>org.qbittorrent.qBittorrent.desktop</Filename>
+   <Filename>waterfox.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>vesktop.desktop</Filename>
+  </Exclude>
+ </Menu>
+</Menu>
